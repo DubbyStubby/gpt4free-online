@@ -1,6 +1,7 @@
 from g4f import Provider, models
 from langchain.llms.base import LLM
 from langchain_g4f import G4FLLM
+import streamlit
 from g4f.gui import run_gui
 run_gui()
 
